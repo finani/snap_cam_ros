@@ -41,7 +41,7 @@
   <arg name="do_rectification" default="false"/>
 
   <!-- Note that this feature is only applicable to 8096 (if false)-->
-  <arg name="is_cam_master" default="true"/>
+  <arg name="is_cam_master" default="false"/>
 
   <group ns="$(arg cam_name)">
     <node pkg="nodelet" type="nodelet" name="$(arg nodelet_manager_name)" args="manager" output="screen"/>
